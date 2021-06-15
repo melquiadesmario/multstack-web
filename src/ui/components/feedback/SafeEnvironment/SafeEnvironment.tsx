@@ -3,13 +3,14 @@ import { SafeEnvironmentContainer } from './SafeEnvironment.style';
 import { Container } from '@material-ui/core';
 
 const SafeEnvironment = () => {
-    return(
-        <SafeEnvironmentContainer>
-            <Container>
-                Ambiente Seguro
-            </Container>
-        </SafeEnvironmentContainer>
-    );
-}
+  return (
+    <SafeEnvironmentContainer>
+      <Container>
+        Ambiente Seguro
+        <i className={'twf-lock'}></i>
+      </Container>
+    </SafeEnvironmentContainer>
+  );
+};
 
 export default SafeEnvironment;
